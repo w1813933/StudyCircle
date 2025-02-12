@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Circle - DashBoard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+    <!--The left side of the Page of the dashboard Page-->
+    <div id="left-column">
+        <header>
+            <img class="logo" src="images/scLogo2.JPG" alt="logo"></imgclass>
+        </header>
+
+        <!--All the button navigations to change to different pages-->
+        <nav>
+
+            <button style="background-color: rgb(200, 226, 247)">DashBoard</button>
+            <br>
+            <br>
+            <a class="dashboard" href="task.html"><button>Tasks</button></a>
+            <br>
+            <br>
+            <a class="dashboard" href="notes.html"><button>Notes</button></a>
+            <br>
+            <br>
+            <a class="dashboard" href="calendar.html"><button>Calendar</button></a>
+            <br>
+            <br>
+            <a class="dashboard" href="chat.html"><button>Chat</button></a>
+            <br>
+            <br>
+            <a class="dashboard" href="notification.html"><button>Notifications</button></a>
+            <br>
+            <br>
+            <a class="dashboard" href="settings.html"><button>Settings</button></a>
+
+        </nav>
+    </div>
+
+    <!--The page where all information would be presented to the user-->
+    <div id="page">
+        <header>
+            <h1 id="welcome">Welcome<h1>
+        </header>
+   
+    
+        <a href="profile.html">
+           
+            <img class= "profile" src="images/profile.jpg" alt="profile" >
+        
+        </a>
+
+        <h2 id="datetime"></h2>
+
+        <script>
+
+        // Get current date and time
+        var now = new Date();
+        var datetime = now.toLocaleString();
+
+        // Insert date and time into HTML
+        document.getElementById("datetime").innerHTML = datetime;
+
+        </script>
+
+        <h1 id="task_display">TASKS</h1>
+
+        <h1 id="notes">NOTES</h1>
+
+        <h1 id="deadlines_view">DEADLINES</h1>
+
+        <h1 id="break">BREAK</h1>
+
+        <h1 id="calendar_view">CALENDAR</h1>
+
+    </div>
+       
+</body>
+</html>

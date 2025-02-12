@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+div
+{
+    border: 1px solid #9f9f9f;
+    padding: 10px;
+}
+
+#wrapper
+{
+    width: 100%;
+    display: table;
+}
+
+#left-column {
+
+    width: 230px;
+    height: 738px;
+    background-color: rgb(239, 248, 255);
+}
+
+#page{
+    width: 1300px;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+}
+/*
+#right-column{
+    width: 250px;
+    height: 738px;
+    background-color: rgb(233, 233, 233);
+    border: rgb(233, 233, 233);
+}
+*/
+
+#left-column, #page /*,#right-column*/
+{
+    display: table-cell;
+}
+
+.logo{
+    cursor: pointer;
+    width: 250px;
+    height: 30px;
+   
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 40px 10%;
+    background-color: rgb(239, 248, 255);
+    
+}
+
+nav{
+    background-color: rgb(239, 248,255);
+}
+
+#left-column button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    padding: 20px 100px;
+    width: 20px;
+    background-color: rgb(239, 248,255);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    color: rgb(0,0,37);
+    display: flex;
+    justify-content: center;
+}
+
+#left-column button:hover{
+    background-color: rgb(200, 226, 247);
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+#page header{
+
+    width:800px;
+    height:130px;
+    position: absolute;
+    right: 430px;
+    top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:left;
+    padding-left: 30px;
+    padding-top: 40px;
+    border: none;
+    border-radius: 40px;
+    
+    /*width: 800px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(239, 248,255);
+    margin-top: 20px;
+*/
+}
+
+
+
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(239, 248,255);
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 248,255);
+}
+
+
+#page img {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    
+   
+  }
+
+.profile{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    
+}
+
+#task_display{
+    width:800px;
+    height:250px;
+    position: absolute;
+    right: 430px;
+    top: 170px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#notes{
+    width:380px;
+    height:260px;
+    position: absolute;
+    right: 850px;
+    top: 440px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+
+#deadlines_view{
+    width:400px;
+    height:260px;
+    position: absolute;
+    right: 430px;
+    top: 440px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#break{
+    width:370px;
+    height:250px;
+    position: absolute;
+    right: 30px;
+    top: 170px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#calendar_view{
+    width:370px;
+    height:255px;
+    position: absolute;
+    right: 30px;
+    top: 440px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#datetime{
+    width:200px;
+    height:130px;
+    position: absolute;
+    right: 200px;
+    top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:left;
+    padding-left: 30px;
+    padding-top: 40px;
+    border: none;
+    border-radius: 40px;
+    
+}
+
+
